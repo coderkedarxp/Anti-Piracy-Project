@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 import random
 
 
-def extract_fingerprint(image_path, seed="K3d@r_xAI_2025!", encrypt_key=None):
+def extract_fingerprint(image_path, seed="K3d@r_2025!", encrypt_key=None):
     img = cv2.imread(image_path)
     img_flat = img.flatten()
 
